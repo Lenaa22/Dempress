@@ -98,4 +98,9 @@ h6{
         display: block;
         margin: 10px 0;
     }
+
+    img {
+        max-width: 100%; /* Ensure the image does not exceed the width of its container */
+        height: auto; /* Maintain the image's aspect ratio */
+    }
 }
