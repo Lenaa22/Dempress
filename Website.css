@@ -81,3 +81,21 @@ h6{
     text-align: center;
     padding: 0em;
 }
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+    /* Styles for mobile devices */
+    header {
+        text-align: center;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
